@@ -1,0 +1,9 @@
+# 构建产物与缓存
+__pycache__/
+*.pyc
+.browser-profile/
+
+# 这个项目刻意把 dashboard.html 纳入版本管理:
+# 它是零依赖单文件产物,直接双击就能看,方便在 GitHub 上 clone 后立刻查看效果。
+# 如果你偏好"产物不入库",把下面这行取消注释即可。
+# dashboard.html
